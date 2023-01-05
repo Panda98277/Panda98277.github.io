@@ -1,1 +1,58 @@
+<style type="text/css">
 
+/* 选择器{
+
+属性:属性值;
+
+}*/
+
+/*
+
+css基础选择器:
+
+1.标签选择器
+
+2.类选择器
+
+3.id选择器
+
+选择器的优先级:id>class>标签
+
+!important:提升页面的权重
+
+简书 注册一个账号 写一篇博客
+
+*/
+
+/* h1{
+
+color: greenyellow;
+
+font-size: 250px;
+
+text-align: center;
+
+}*/
+
+.h1{
+
+color: green;
+
+font-size: 250px;
+
+text-align: center;
+
+}
+
+/*#h2{
+
+color: red;
+
+}*/
+
+</style>
+
+/* 作者：pizan
+链接：https://www.jianshu.com/p/27a34acead65
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 */
