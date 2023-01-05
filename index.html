@@ -4,19 +4,26 @@
   <head>
     <meta charset="utf-8">
     <style>
-      .style1 {
-        background: linear-gradient(to bottom, #f0610e, #e8771a, #fff34a);
+      h2 {
+        height: 60px;
+        color: #f35626;
+        background: coral;
+        background-image: -webkit-linear-gradient(45deg, #f35626, #feab3a);
         -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 6s infinite linear;
       }
 
-      .style2 {
-        background: linear-gradient(45deg, blue, red);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
+      @-webkit-keyframes hue {
+        from {
+          -webkit-filter: hue-rotate(0deg);
+        }
+
+        to {
+          -webkit-filter: hue-rotate(-360deg);
+        }
       }
+      
     </style>
   </head>
 
